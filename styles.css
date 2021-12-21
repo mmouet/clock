@@ -1,0 +1,24 @@
+/* Michael Mouet - JS Clock */
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 75px;
+  background-color: black;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15vw 0;
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 50px;
+  }
+  .section-1 {
+  	padding: 75vw 0;
+  }
+}
